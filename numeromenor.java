@@ -4,27 +4,27 @@ import java.util.Scanner;
 public class numeromenor {
 
 	// TODO Auto-generated method stub
-			static int menor(int a, int b)
+			static int menor(int a1, int b2)
 			{
-			     if (a<b){
+			     if (a1<b2){
 			     System.out.print("El numero menor es: ");
 			     
-			     return a;
-			     } else if (b<a) {
+			     return a1;
+			     } else if (b2<a1) {
 			     System.out.print("El numero menor es: ");
-			     return b;
+			     return b2;
 			     }else{
-			     System.out.print("Los nuemros son Iguales");
-			     return a;
+			     System.out.print("Los numeros son Iguales");
+			     return 0;
 			     }
 			}      
 		public static void main(String[] args) {
 			Scanner mi_escaner= new Scanner (System.in);
-			  System.out.print("Ingrese a: ");
+			  System.out.print("Ingrese el primer numero: ");
 			  int a1= mi_escaner.nextInt();
-			  System.out.print("Ingrese b: ");
+			  System.out.print("Ingrese el segundo numero: ");
 			  int b2= mi_escaner.nextInt();
-			  System.out.print("el menor es: " + menor(a1,b2));
+			  System.out.print(menor(a1,b2));
 		}
 		
 	}
